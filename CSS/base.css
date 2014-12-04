@@ -1,13 +1,96 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
 }
 
+#wrapper{
+    border-left-style: solid;
+    border-left-width: 15px;
+    border-left-color: #D8ECFF;
+    border-right-style: solid;
+    border-right-width: 15px;
+    border-right-color: #D8ECFF;
+}
+
+h1 {
+    font-size: 18pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    font-size: 16pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    width:100%;
+    text-align:center;
+    background-color: #D8ECFF;
+}
+
+header h1{
+    font-size: 36pt;
+    color: black;
+    font-weight: 400
+}
+
+header h1:hover{
+    color: #43627F
+}
+
+header a{
+    text-decoration: none;
+}
+
+nav {
+    margin-bottom: 10px;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    text-align: center;
+    width:100%;
+    border-bottom-style:solid;
+    border-bottom-width: 15px;
+    border-bottom-color: #D8ECFF;
+}
+
+nav a{
+    margin-right:8%;
+    margin-left: 7%;
+    font-size: 12pt;
+    line-height: 5px;
+    text-decoration: none;
+    color: black;
+    font-family: arial, helvetica, sans-serif;
+}
+
+nav a:visited{
+    color: black;
+}
+
+nav a:hover{
+    color: #43627F;
+    text-decoration: underline;
+}
+
+article {
+    margin-left: 5%;
+    margin-right:5%;
+    clear:both;
+}
+
+article h1{
+    margin-left:2.5%;
+}
+
+article h2{
+    margin-left:2.5%;
+    font-weight: 100
+}
 .photos {
     float:left;
     width: 45%;
-    margin-top: 30px;
+    margin-top: 15px;
     margin-left: 2.5%;
     margin-right: 2.5%;
 }
@@ -18,10 +101,18 @@
     border-width: 1px
 }
 
+.photos p {
+    text-align:center;
+}
+
+.videos p {
+    text-align:center;
+}
+
 .videos {
     float:right;
     width:45%;
-    margin-top: 30px;
+    margin-top: 15px;
     margin-left: 2.5%;
     margin-right: 2.5%;
 }

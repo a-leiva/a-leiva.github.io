@@ -5,26 +5,26 @@
 }
 
 #wrapper{
-    border-left-style: solid;
-    border-left-width: 15px;
-    border-left-color: #D8ECFF;
-    border-right-style: solid;
-    border-right-width: 15px;
-    border-right-color: #D8ECFF;
-    border-bottom-style: solid;
-    border-bottom-width: 15px;
-    border-bottom-color: #D8ECFF;
     height: 100vh;
 }
 
 h1 {
     font-size: 18pt;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Gotham, Arial, sans-serif;
+    margin-left: 2%;
 }
 
 h2 {
     font-size: 16pt;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Gotham, Arial, sans-serif;
+    margin-bottom: 10px
+}
+
+p{
+    font-family: Gotham, Arial, sans-serif;
+    margin-left: 2.5%;
+    margin-bottom: 10px;
+    line-height: 1.5;
 }
 
 header {
@@ -36,7 +36,8 @@ header {
 header h1{
     font-size: 36pt;
     color: black;
-    font-weight: 400
+    font-weight: 400;
+    color: #434B52;
 }
 
 header h1:hover{
@@ -56,6 +57,12 @@ nav {
     border-bottom-style:solid;
     border-bottom-width: 15px;
     border-bottom-color: #D8ECFF;
+    border-left-style: solid;
+    border-left-width: 15px;
+    border-left-color: #D8ECFF;
+    border-right-style: solid;
+    border-right-width: 15px;
+    border-right-color: #D8ECFF;
 }
 
 nav a{
@@ -65,7 +72,7 @@ nav a{
     line-height: 5px;
     text-decoration: none;
     color: black;
-    font-family: arial, helvetica, sans-serif;
+    font-family: Gotham, Arial, sans-serif;
 }
 
 nav a:visited{
@@ -81,16 +88,15 @@ article {
     margin-top: 40px;
     margin-left: 5%;
     margin-right:5%;
-    clear:both;
 }
 
 article h1{
-    margin-left:2.5%;
+    margin-left:10%;
 }
 
 article h2{
     margin-top: 10px;
-    margin-left:2.5%;
+    margin-left:10%;
     font-weight: 100
 }
 .photos {
@@ -112,11 +118,8 @@ article h2{
     text-align:center;
 }
 
-.videos p {
-    text-align:center;
-}
 
-.videos {
+.videos2 {
     float:right;
     width:45%;
     margin-top: 15px;
@@ -124,10 +127,20 @@ article h2{
     margin-right: 2.5%;
 }
 
-.videos img { 
-    width:100%;
-    border-style: solid;
-    border-width: 1px
+.videos2 p {
+    text-align:center;
+}
+
+.videos1 {
+    float:right;
+    width:45%;
+    margin-top: 15px;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+.videos1 p {
+    text-align:center;
 }
 
 .videowrapper { /*http://alistapart.com/article/creating-intrinsic-ratios-for-video*/
@@ -149,14 +162,56 @@ article p {
     clear:both;
 }
 
-.quote p {
-    font-size: 8px;
-    font-family: arial, helvetica, sans-serif;
-    text-align: center;
+.abouth1 {
+    margin-left: 2.2%;
 }
 
+.headshot {
+    max-height: 300px;
+    max-width: 300px;
+    min-width: 20%;
+    min-height: 20%;
+    margin-left: 40%;
+    margin-right: 35%;
+    float: left;
+}
+
+.headshot img{
+    height: 100%;
+    width: 100%;
+}
+
+.about {
+    margin-left: 10%;
+    margin-right: 10%;
+    float: right;
+}
+
+.social{
+    margin-left: 48%;
+    margin-right: 35%;
+    clear: both
+}
+
+.social img{
+    max-height: 50px;
+    max-width: 50px;
+    min-height: 50px;
+}
+
+.quote {
+   text-align: center;
+}
+
+.quote p {
+    font-size: 8px;
+    font-family: Gotham, Arial, sans-serif;
+    clear: both
+}
+
+
 footer {
-height: 0;
 font-family: arial, helvetica, sans-serif;
 font-size: 10px;
+
 }
